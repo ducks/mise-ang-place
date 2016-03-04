@@ -1,0 +1,20 @@
+{
+  "name": "angular-plate",
+  "version": "0.0.0",
+  "description": "An angular boiler plate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm run browserify",
+    "start": "http-server -a 0.0.0.0 -p 8181",
+    "browserify": "browserify index.js -o plate.js --debug",
+    "watchify": "watchify index.js -o plate.js --debug",
+    "uglify": "browserify index.js | uglifyjs -c > plate.min.js"
+  },
+  "author": "Jake Goldsborough <rjgoldsborough@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18"
+  }
+}

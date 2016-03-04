@@ -1,0 +1,26 @@
+<!doctype html>
+<html class="no-js" lang="" ng-app="plate">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/plate.css">
+  </head>
+  <body>
+    <header ng-controller="headerCtrl">
+      <h1> {{ appName }}</h1>
+    </header>
+    <main ui-view class="container"></main>
+    <footer ng-controller="footerCtrl">
+      <p>&copy; empathy {{ copyright }}</p>
+    </footer> 
+  </body>
+
+  <script src="plate.js"></script>
+</html>
