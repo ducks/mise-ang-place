@@ -1,4 +1,4 @@
-# Angular Plate
+# Mise-ang-place 
 
 This is a basic skeleton for angular projects that I have been using lately.
 

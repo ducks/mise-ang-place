@@ -1,5 +1,5 @@
 {
-  "name": "angular-plate",
+  "name": "mise-ang-place",
   "version": "0.0.0",
   "description": "An angular boiler plate",
   "main": "index.js",
@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "npm run browserify",
     "start": "http-server -a 0.0.0.0 -p 8181",
-    "browserify": "browserify index.js -o plate.js --debug",
-    "watchify": "watchify index.js -o plate.js --debug",
-    "uglify": "browserify index.js | uglifyjs -c > plate.min.js"
+    "browserify": "browserify index.js -o place.js --debug",
+    "watchify": "watchify index.js -o place.js --debug",
+    "uglify": "browserify index.js | uglifyjs -c > place.min.js"
   },
   "author": "Jake Goldsborough <rjgoldsborough@gmail.com>",
   "license": "ISC",

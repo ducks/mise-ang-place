@@ -2,7 +2,7 @@
 
 module.exports = function($scope) {
   function init() {
-    $scope.appName = "Angular Plate";
+    $scope.appName = "Mise-ang-place";
   }
 
   init();
